@@ -2,6 +2,7 @@
 node_modules/
 .pnpm-store/       # pnpm's global store (if local)
 .pnpm/             # pnpm's virtual store (in project)
+*pnpm-*.*           # pnmp's lock file
 
 # --- Build & Output ---
 dist/              # Compiled TypeScript/JavaScript
