@@ -2,8 +2,8 @@
 node_modules/
 .pnpm-store/       # pnpm's global store (if local)
 .pnpm/             # pnpm's virtual store (in project)
-*pnpm-*.*           # pnmp's lock file
-
+*pnpm-*.*          # pnmp's lock file
+.next/             # Remove .next packages 
 # --- Build & Output ---
 dist/              # Compiled TypeScript/JavaScript
 build/             # Alternative build directory
