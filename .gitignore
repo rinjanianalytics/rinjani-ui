@@ -2,12 +2,16 @@
 node_modules/
 .pnpm-store/       # pnpm's global store (if local)
 .pnpm/             # pnpm's virtual store (in project)
-*pnpm-*.*          # pnmp's lock file
-.next/*             # Remove .next packages 
+pnpm-lock.yaml     # pnpm's lockfile (if you prefer to keep it tracked)
+
+# --- Next.js ---
+.next/             # Next.js build cache and output
+.next/cache/       # (explicitly, if needed)
+
 # --- Build & Output ---
 dist/              # Compiled TypeScript/JavaScript
 build/             # Alternative build directory
-out/               # Next.js, NestJS, etc.
+out/               # Next.js static export (if using `next export`)
 coverage/          # Test coverage reports
 *.tsbuildinfo      # TypeScript incremental build info
 
@@ -27,20 +31,20 @@ pnpm-debug.log*
 pnpm-error.log*
 
 # --- IDE & Editor ---
-.vscode/           # VS Code settings
-.idea/             # JetBrains IDE
-*.swp              # Vim swap files
+.vscode/
+.idea/
+*.swp
 
 # --- OS-Specific ---
-.DS_Store          # macOS
-Thumbs.db          # Windows
-desktop.ini        # Windows
+.DS_Store
+Thumbs.db
+desktop.ini
 
 # --- Testing ---
-/junit.xml         # Test reports
-/test-results/     # Jest/Cypress outputs
+/junit.xml
+/test-results/
 
 # --- Misc ---
-.cache/            # Parcel, Gatsby, etc.
-.temp/             # Temporary files
-dump.rdb           # Redis cache
+.cache/
+.temp/
+dump.rdb
