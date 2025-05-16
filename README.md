@@ -40,26 +40,121 @@ Rinjani Analytics is a cutting-edge cybersecurity intelligence platform that har
 ## Project Structure
 
 ```
+.
 ├── app
-│   ├── alerts
-│   ├── indicators
-│   ├── knowledge-base
-│   ├── opencti
-│   ├── playbook
-│   ├── reports
-│   ├── security
-│   ├── settings
-│   ├── threat-graph
-│   └── threat-modelling
+│   ├── alerts
+│   │   └── page.tsx
+│   ├── global-cybersecurity-news.tsx
+│   ├── globals.css
+│   ├── indicators
+│   │   └── page.tsx
+│   ├── knowledge-base
+│   │   └── page.tsx
+│   ├── layout.tsx
+│   ├── loading.tsx
+│   ├── opencti
+│   │   └── page.tsx
+│   ├── page.tsx
+│   ├── playbook
+│   │   └── page.tsx
+│   ├── reports
+│   │   └── page.tsx
+│   ├── security
+│   │   └── page.tsx
+│   ├── settings
+│   │   └── page.tsx
+│   ├── threat-graph
+│   │   └── page.tsx
+│   └── threat-modelling
+│       └── page.tsx
 ├── components
-│   └── ui
+│   ├── alerts-page.tsx
+│   ├── animation-settings.tsx
+│   ├── donut-chart.tsx
+│   ├── force-graph.tsx
+│   ├── header-top.tsx
+│   ├── heatmap-chart.tsx
+│   ├── indicators-page.tsx
+│   ├── knowledge-base-page.tsx
+│   ├── opencti-page.tsx
+│   ├── playbook-page.tsx
+│   ├── radar-chart.tsx
+│   ├── reports-page.tsx
+│   ├── security-page.tsx
+│   ├── settings-page.tsx
+│   ├── sidebar-menu.tsx
+│   ├── theme-provider.tsx
+│   ├── threat-modelling-page.tsx
+│   ├── threatgraph-page.tsx
+│   ├── ui
+│   │   ├── accordion.tsx
+│   │   ├── alert-dialog.tsx
+│   │   ├── alert.tsx
+│   │   ├── aspect-ratio.tsx
+│   │   ├── avatar.tsx
+│   │   ├── badge.tsx
+│   │   ├── breadcrumb.tsx
+│   │   ├── button.tsx
+│   │   ├── calendar.tsx
+│   │   ├── card.tsx
+│   │   ├── carousel.tsx
+│   │   ├── chart.tsx
+│   │   ├── checkbox.tsx
+│   │   ├── collapsible.tsx
+│   │   ├── command.tsx
+│   │   ├── context-menu.tsx
+│   │   ├── dialog.tsx
+│   │   ├── drawer.tsx
+│   │   ├── dropdown-menu.tsx
+│   │   ├── form.tsx
+│   │   ├── hover-card.tsx
+│   │   ├── input-otp.tsx
+│   │   ├── input.tsx
+│   │   ├── label.tsx
+│   │   ├── menubar.tsx
+│   │   ├── navigation-menu.tsx
+│   │   ├── notification-badge.tsx
+│   │   ├── pagination.tsx
+│   │   ├── popover.tsx
+│   │   ├── progress.tsx
+│   │   ├── radio-group.tsx
+│   │   ├── resizable.tsx
+│   │   ├── scroll-area.tsx
+│   │   ├── select.tsx
+│   │   ├── separator.tsx
+│   │   ├── sheet.tsx
+│   │   ├── sidebar.tsx
+│   │   ├── skeleton.tsx
+│   │   ├── slider.tsx
+│   │   ├── sonner.tsx
+│   │   ├── switch.tsx
+│   │   ├── table.tsx
+│   │   ├── tabs.tsx
+│   │   ├── textarea.tsx
+│   │   ├── toast.tsx
+│   │   ├── toaster.tsx
+│   │   ├── toggle-group.tsx
+│   │   ├── toggle.tsx
+│   │   ├── tooltip.tsx
+│   │   ├── use-mobile.tsx
+│   │   └── use-toast.ts
+│   └── world-map-chart.tsx
 ├── hooks
+│   ├── use-mobile.tsx
+│   └── use-toast.ts
 ├── lib
+│   └── utils.ts
 ├── public
-│   └── images
-└── styles
-
-
+│   ├── images
+│   │   └── rinjani-logo.svg
+│   ├── placeholder-logo.png
+│   ├── placeholder-logo.svg
+│   ├── placeholder-user.jpg
+│   ├── placeholder.jpg
+│   └── placeholder.svg
+├── README.md
+├── styles
+    └── globals.css
 
 ```
 
